@@ -20,7 +20,6 @@ connect().use(serveStatic(__dirname+"/html")).listen(8080, function(){
 //websocket handler 
 wss.on('connection', function connection(ws) {
   ws.on('message', function incoming(message) {
-    //console.log('received: %s', message);
     var arr = message.split("");
     switch(arr[0]){
         case "1":
@@ -33,7 +32,7 @@ wss.on('connection', function connection(ws) {
   });
 });
 
-//getipv4 address
+//getipv4
 function getipv4(){
   var ifaces = os.networkInterfaces();
   var addr = [];
