@@ -20,5 +20,6 @@ To run the server, type ```node webconx.js``` into the terminal, open on a touch
 The device has to be on the same local network as the server.
 
 # To-do!
-* Implement VOL sliders
+* ~~Implement VOL sliders~~ done
+* Fix release command being sent at the start of a Vol slide
 * Make a OSU 4k mania html vers.
