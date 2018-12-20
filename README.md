@@ -21,5 +21,6 @@ The device has to be on the same local network as the server.
 
 # To-do!
 * ~~Implement VOL sliders~~
+* Improve VOL (rewrite?)
 * Redesign UI to look better
 * Make a OSU 4k mania html vers.
