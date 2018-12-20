@@ -21,5 +21,5 @@ The device has to be on the same local network as the server.
 
 # To-do!
 * ~~Implement VOL sliders~~
-* Fix release command being sent at the start of a Vol slide
+* Redesign UI to look better
 * Make a OSU 4k mania html vers.
