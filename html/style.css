@@ -52,6 +52,7 @@ body{
     display: inline-block;
     height: 1vh;
     width: calc((100vw - 120vh)/4);
+    vertical-align: middle;
 }
 
 .fx-btn{
@@ -67,11 +68,26 @@ body{
 }
 
 .start-btn{
+    display: inline-block;
     height: 25vh;
     width: 25vh;
 }
 
-#bt-container{
+.bt-container{
     display: inline-block;
 }
 
+.startbt-container{
+    display: inline-block;
+    background: aqua;
+    height: 25vh;
+    width: 25vh;
+}
+
+.vol-sldr{
+    display: inline-block;
+    background: aqua;
+    height: 25vh;
+    width: calc((100vw - 25vh - ((100vw - 120vh)/4*3))/2);
+    vertical-align: middle;
+}
